@@ -1,5 +1,16 @@
 # Digital Twin
 
+---
+title: Digital Twin Assistant
+emoji: 🧠
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.50.0
+app_file: app.py
+pinned: false
+---
+
 A personal digital twin for **Davies**, a software engineer. It models his preferences and behavioral patterns from three sources of evidence (a profile, an activity history, and temporal patterns) and uses them to answer questions and predict likely next actions. It never guesses: when the data doesn't support an answer, it says what is missing.
 
 The twin runs on the Groq API, is wrapped in a layered safety system, and is served through a Streamlit chat interface.
