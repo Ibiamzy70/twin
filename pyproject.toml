@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digital-twin"
+version = "0.1.0"
+description = "Digital twin with a safety pipeline (rate limit, injection filter, PII redaction, output validation)."
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+# "." makes `tests` and `scripts` importable; "src" makes `digital_twin` importable without installing.
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+# -ra: summary of skipped/failed. The live Groq tests are skipped unless you run: pytest -m integration
+addopts = "-ra -m 'not integration'"
+markers = ["integration: calls the live Groq API"]
+filterwarnings = ["error::DeprecationWarning:digital_twin.*"]

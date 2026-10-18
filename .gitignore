@@ -5,3 +5,18 @@
  __pycache__/
 
 .env.example
+
+*.pyc
+.pytest_cache/
+
+venv/
+
+
+
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.streamlit/secrets.toml
+data/*.db
+data/*.sqlite3

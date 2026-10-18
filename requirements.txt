@@ -1,0 +1,6 @@
+groq
+requests
+numpy
+streamlit
+python-dotenv
+pytest

@@ -1,0 +1,154 @@
+{
+  "user_profile": {
+    "name": "Davies",
+    "role": "full-stack software developer",
+    "self_description": "I'm Davies — a full-stack software developer who builds and ships production software end-to-end. My days revolve around writing code, solving problems, and constructing systems that actually work. I build AI models, work on code, and use AI models daily in my workflow. I work 12 or 8 hours a day — coding, solving, building.",
+    "core_activities": [
+      "building AI models",
+      "working on code",
+      "using AI models",
+      "full-stack software development",
+      "coding",
+      "solving problems",
+      "building systems"
+    ],
+    "work_schedule": {
+      "hours_per_day": "12 or 8 hours",
+      "most_active_periods": "morning and evenings"
+    },
+    "preferences": [
+      "prefers analytical explanations",
+      "likes structured responses",
+      "concise but complete answers",
+      "practical, build-oriented guidance",
+      "respect for deep work and long coding sessions"
+    ],
+    "skills_and_tools": [
+      "python",
+      "FastAPI",
+      "REST APIs",
+      "data pipelines",
+      "matplotlib",
+      "SQL",
+      "Docker",
+      "CI/CD",
+      "vector databases",
+      "RAG pipelines",
+      "LLM APIs",
+      "unit testing",
+      "presentations"
+    ],
+    "goals": [
+      "improve understanding",
+      "prepare technical presentations",
+      "build workflows for research and discovery"
+    ]
+  },
+  "activity_history": [
+    {
+      "time": "2026-08-10",
+      "activity": "created slides on edge computing"
+    },
+    {
+      "time": "2026-08-11",
+      "activity": "debugged a python data pipeline script"
+    },
+    {
+      "time": "2026-08-12",
+      "activity": "read a paper on federated learning"
+    },
+    {
+      "time": "2026-08-13",
+      "activity": "refactored a REST API in FastAPI"
+    },
+    {
+      "time": "2026-08-14",
+      "activity": "prepared talking points for a stakeholder demo"
+    },
+    {
+      "time": "2026-08-15",
+      "activity": "wrote unit tests for a data ingestion module"
+    },
+    {
+      "time": "2026-08-16",
+      "activity": "researched vector databases for RAG pipelines"
+    },
+    {
+      "time": "2026-08-18",
+      "activity": "built a matplotlib dashboard for weekly metrics"
+    },
+    {
+      "time": "2026-08-19",
+      "activity": "reviewed a colleague's pull request"
+    },
+    {
+      "time": "2026-08-20",
+      "activity": "drafted a technical proposal for a new microservice"
+    },
+    {
+      "time": "2026-08-21",
+      "activity": "attended a workshop on distributed systems"
+    },
+    {
+      "time": "2026-08-22",
+      "activity": "optimized a SQL query for a reporting job"
+    },
+    {
+      "time": "2026-08-23",
+      "activity": "created a presentation comparing cloud providers"
+    },
+    {
+      "time": "2026-08-25",
+      "activity": "prototyped a chatbot using an LLM API"
+    },
+    {
+      "time": "2026-08-26",
+      "activity": "documented an internal python library"
+    },
+    {
+      "time": "2026-08-27",
+      "activity": "explored containerization with Docker for a side project"
+    },
+    {
+      "time": "2026-08-28",
+      "activity": "summarized research findings into a one-page brief"
+    },
+    {
+      "time": "2026-08-29",
+      "activity": "set up a CI/CD pipeline for a repo"
+    },
+    {
+      "time": "2026-08-30",
+      "activity": "practiced a technical presentation with the team"
+    },
+    {
+      "time": "2026-08-31",
+      "activity": "analyzed logs to debug a production incident"
+    }
+  ],
+  "temporal_patterns": {
+    "most_active_periods": "morning and evenings",
+    "daily_work_hours": "12 or 8 hours a day",
+    "common_tasks": [
+      "presentation preparation",
+      "code review",
+      "coding examples",
+      "product document review",
+      "PRD creation",
+      "building AI models",
+      "working on code",
+      "using AI models",
+      "coding",
+      "solving",
+      "building"
+    ],
+    "recurring_focus": [
+      "emerging technologies",
+      "computer engineering",
+      "software building",
+      "code using",
+      "AI model development",
+      "full-stack development"
+    ]
+  }
+}
